@@ -1,6 +1,6 @@
 FROM postgres:9.6
 
-ENV SCWS_VERSION 1.22
+ENV SCWS_VERSION 1.2.2
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates wget \
     && apt-get install -y tar make gcc
 RUN apt-get install -y postgresql-server-dev-$PG_MAJOR
